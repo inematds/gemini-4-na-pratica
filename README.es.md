@@ -10,7 +10,7 @@ El proyecto reúne fuentes públicas, una comparación y un criterio de validaci
 
 [Cómo empezar](https://inematds.github.io/gemini-4-na-pratica/guia/es/) · [Lee la comparación con fuentes (en portugués)](COMPARATIVO.md)
 
-[Ver el Short en YouTube](https://youtube.com/shorts/WEWkoZKwEcU)
+[Mira el análisis y el resumen](https://www.youtube.com/watch?v=iP57IDdL7e0) · [Ver el Short en YouTube](https://youtube.com/shorts/WEWkoZKwEcU)
 
 ## Prueba con algo que necesitas entregar
 

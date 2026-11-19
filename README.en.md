@@ -10,7 +10,7 @@ The project brings together public sources, a comparison, and a validation yards
 
 [How to get started](https://inematds.github.io/gemini-4-na-pratica/guia/en/) · [Read the comparison with sources (in Portuguese)](COMPARATIVO.md)
 
-[Watch the Short on YouTube](https://youtube.com/shorts/WEWkoZKwEcU)
+[Watch the analysis and summary](https://www.youtube.com/watch?v=iP57IDdL7e0) · [Watch the Short on YouTube](https://youtube.com/shorts/WEWkoZKwEcU)
 
 ## Test with something you need to deliver
 
