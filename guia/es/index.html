@@ -102,6 +102,7 @@
 body.light nav{background:rgb(246 247 249 / 96%)}
 body.light a:not(.btn,.brand,.inema){color:#81510f}
 #resumo figure{margin:1.5rem 0 0} #resumo img{display:block;width:100%;height:auto;border-radius:14px}
+.card .arena-table{width:100%;border-collapse:collapse;text-align:left;margin-top:1rem;font-size:clamp(.74rem,1.7vw,1rem)} .arena-table td,.arena-table th{padding:.5rem .35rem;border-bottom:1px solid var(--line)}
 </style></head><body>
 <nav><div class="wrap">
 <a class="brand" href="#top">Gemini 4</a>
@@ -132,7 +133,7 @@ body.light a:not(.btn,.brand,.inema){color:#81510f}
 </div></div></section>
 <!-- VIDEO: entra o explicavideo do projeto quando publicado -->
 <section id="como"><div class="wrap"><h2>Una tarea, la misma vara</h2><p class="sub">Dales a los tres modelos los mismos datos, herramientas y límite de intentos. Acuerden de antemano qué cuenta como terminado. Suma el costo de todos los intentos y divídelo solo entre el número de entregas aprobadas.</p>
-<div class="card"><h3>Lo que observó Arena</h3><p>En la selección consultada, Neon obtuvo la puntuación más alta entre los tres. Hydrogen tuvo la mediana de tiempo más baja. Argon tuvo el menor costo mediano. Las posiciones describen esa selección. INEMA hizo una investigación documental y preparó un protocolo para futuras pruebas propias.</p></div></div></section>
+<div class="card"><h3>Lo que observó Arena</h3><p>En la selección consultada, Neon obtuvo la puntuación más alta entre los tres. Hydrogen tuvo la mediana de tiempo más baja. Argon tuvo el menor costo mediano. Las posiciones describen esa selección. INEMA hizo una investigación documental y preparó un protocolo para futuras pruebas propias.</p><table class="arena-table"><thead><tr><th scope="col">Modelo</th><th scope="col">Puntuación</th><th scope="col">Costo mediano</th><th scope="col">Tiempo mediano</th></tr></thead><tbody><tr><th scope="row">Neon (High)</th><td>1.333</td><td>US$ 2,60</td><td>8,4 min</td></tr><tr><th scope="row">Argon (High)</th><td>1.229</td><td>US$ 0,66</td><td>7,0 min</td></tr><tr><th scope="row">Hydrogen (High)</th><td>1.271</td><td>US$ 1,50</td><td>5,3 min</td></tr></tbody></table></div></div></section>
 <section id="comecar"><div class="wrap"><h2>Prueba con algo que necesitas entregar</h2><p class="sub">Elige una tarea del laboratorio, copia la solicitud y usa la hoja de cálculo para registrar la ejecución. Empieza con datos ficticios.</p>
 <div class="card"><p id="prompt">Usa los mismos comprobantes ficticios en los tres modelos. Pide una tabla con ID, fecha y valor. Marca los duplicados y los elementos sin valor. Comprueba el total y registra el tiempo hasta la entrega validada.</p><p style="margin-top:1em"><button class="btn" type="button" id="copy">Copiar solicitud</button> <span id="copyStatus" aria-live="polite"></span></p></div>
 <p><a href="https://github.com/inematds/gemini-4-na-pratica/blob/main/laboratorio/protocolo.md">Laboratorio completo (en portugués)</a> · <a href="../../laboratorio/tentativas.csv" download>Descargar hoja de cálculo CSV</a></p>
