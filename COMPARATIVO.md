@@ -22,9 +22,17 @@ Recorte do índice geral de agentes consultado em 19/11/2026. Todos os três ró
 
 Neon liderou em pontuação entre os três no recorte. Hydrogen teve o menor tempo mediano. Argon teve o menor custo mediano, apesar de Hydrogen ter tarifa unitária menor. Apurar a tarefa, o esforço, os insumos e as tentativas é o que explica custos de uma execução específica.
 
+## O que mudou no teste de automação da Zapier
+
+No AutomationBench 1.0.6, Neon obteve 54,3% em High, Argon 51,3% em High e Hydrogen 51,1% em High. Neon subiu a 56,3% em XHigh, com 370 de 657 tarefas aprovadas. O critério da Zapier exige que todas as condições previstas para o estado final da tarefa sejam cumpridas. Em High, a Zapier estimou US$ 0,88 por tentativa para Neon e US$ 1,63 para Argon. O relatório traz a pontuação do Hydrogen, mas fica sem um custo diretamente comparável. Essa estimativa usa tarifas e hipóteses de cache da avaliação. [Relatório AutomationBench da Zapier](https://zapier.com/benchmarks/gemini-neon-4-report).
+
+O Argon teve custo mediano menor na Agent Arena, enquanto o Neon High teve custo estimado menor na Zapier. As avaliações cobrem tarefas e agregações diferentes. A inversão é um bom motivo para medir no próprio fluxo.
+
 ## O que as quatro referências sugerem
 
-As notas de trabalho convergem em três perguntas: quanto o modelo entrega por tentativa, como a orquestração afeta o resultado e quantos ciclos de revisão são necessários. Jogos, SVG e 3D demonstram possibilidades. Uma demo selecionada não mede taxa de sucesso em repetição. A divisão de tarefas entre agentes e a verificação automática também mudam o resultado, mesmo mantendo o modelo. O estudo da Sakana AI ilustra a evolução de estratégias num ambiente delimitado. [Demonstrações do canal Prompt Engineering](https://www.youtube.com/watch?v=Q0ShBenKyqo), [documentação do Google Antigravity](https://antigravity.google/docs/models), [Digital Red Queen](https://sakana.ai/drq/).
+As notas de trabalho convergem em três perguntas: quanto o modelo entrega por tentativa, como a orquestração afeta o resultado e quantos ciclos de revisão são necessários. Jogos, SVG e 3D demonstram possibilidades. Uma demo selecionada não mede taxa de sucesso em repetição. A divisão de tarefas entre agentes e a verificação automática também mudam o resultado, mesmo mantendo o modelo. O estudo da Sakana AI ilustra a evolução de estratégias num ambiente delimitado. [Demonstrações e minutagem do canal Prompt Engineering](https://chooseto.ai/watch/Q0ShBenKyqo), [documentação do Google Antigravity](https://antigravity.google/docs/models), [Digital Red Queen](https://sakana.ai/drq/).
+
+O criador de Prompt Engineering afirma no vídeo que usou acesso antecipado ao modelo e que havia acabado de ingressar no Google. As demonstrações mostram o que ele conseguiu produzir naquele contexto. [Declaração do criador e minutagem](https://chooseto.ai/watch/Q0ShBenKyqo).
 
 Na documentação consultada, o Google confirma a chegada de Neon em 18/11, com janela de contexto de 1 milhão de tokens na Gemini API e acesso via Google AI Studio pago, Gemini para empresas, Gemini e Antigravity conforme o plano. Os limites de cada produto podem diferir. [Anúncio do Neon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/), [ficha do modelo](https://deepmind.google/models/model-cards/gemini-4-neon/).
 
