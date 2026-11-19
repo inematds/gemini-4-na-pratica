@@ -10,6 +10,8 @@ The project brings together public sources, a comparison, and a validation yards
 
 [How to get started](https://inematds.github.io/gemini-4-na-pratica/guia/en/) · [Read the comparison with sources (in Portuguese)](COMPARATIVO.md)
 
+[Watch the Short on YouTube](https://youtube.com/shorts/WEWkoZKwEcU)
+
 ## Test with something you need to deliver
 
 > Use the same fictional receipts with all three models. Ask for a table with ID, date, and amount. Flag duplicates and items with no amount. Check the total and record the time until the delivery is validated.

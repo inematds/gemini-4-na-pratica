@@ -10,6 +10,8 @@ El proyecto reúne fuentes públicas, una comparación y un criterio de validaci
 
 [Cómo empezar](https://inematds.github.io/gemini-4-na-pratica/guia/es/) · [Lee la comparación con fuentes (en portugués)](COMPARATIVO.md)
 
+[Ver el Short en YouTube](https://youtube.com/shorts/WEWkoZKwEcU)
+
 ## Prueba con algo que necesitas entregar
 
 > Usa los mismos comprobantes ficticios en los tres modelos. Pide una tabla con ID, fecha y valor. Marca los duplicados y los elementos sin valor. Comprueba el total y registra el tiempo hasta la entrega validada.
